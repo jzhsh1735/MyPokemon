@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyPokemon</string>
+    <string name="text_view_hello">Hello MyPokemon!</string>
+    <string name="button_search">Search Pokemon</string>
+</resources>
