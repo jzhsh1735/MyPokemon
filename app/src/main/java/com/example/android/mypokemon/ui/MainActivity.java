@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String ACCOUNT_TYPE = "mypokemon.example.com";
     private static final String ACCOUNT = "mypokemon";
     // TODO: Move to SharedPreference.
-    private static final long SYNC_INTERVAL_SECS = 300L;
+    private static final long SYNC_INTERVAL_SECS = 600L;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

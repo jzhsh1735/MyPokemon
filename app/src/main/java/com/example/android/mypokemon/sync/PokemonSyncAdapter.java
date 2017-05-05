@@ -27,7 +27,7 @@ public class PokemonSyncAdapter extends AbstractThreadedSyncAdapter {
 
     private static final String LOG_TAG = PokemonSyncAdapter.class.getSimpleName();
     // TODO: Move to SharedPreference.
-    private static final boolean ENABLE_DISTANCE = false;
+    private static final boolean ENABLE_DISTANCE = true;
     private static final double RADIUS_METERS = 1000;
 
     private final Context context;
@@ -62,7 +62,7 @@ public class PokemonSyncAdapter extends AbstractThreadedSyncAdapter {
         private static final String USER_AGENT_HEADER = "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36";
         private static final String X_REQUESTED_WITH_HEADER = "XMLHttpRequest";
         // TODO: Move to SharedPreference.
-        private static final String POKEMONS = "106,113,115,122,155,156,157,173,179,180,181,201,203,214,225,235,236,237,241,242,243,244,245,246,247,248";
+        private static final String POKEMONS = "113,115,122,173,179,180,181,201,203,214,225,235,236,237,241,242,243,244,245,246,247,248";
 
         @Override
         protected String doInBackground(Void... params) {
